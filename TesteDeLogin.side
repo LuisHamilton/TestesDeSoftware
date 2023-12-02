@@ -1,0 +1,276 @@
+{
+  "id": "92ff8f50-3e05-4bd4-9a56-ab2c3672500f",
+  "version": "2.0",
+  "name": "TesteDeLogin",
+  "url": "https://practice.automationtesting.in/my-account/",
+  "tests": [{
+    "id": "a15e7756-1390-46c5-9905-19452a4984a8",
+    "name": "TesteDeLogin",
+    "commands": [{
+      "id": "16337807-6e2b-4ec1-8e44-4fabb1425f98",
+      "comment": "",
+      "command": "open",
+      "target": "https://practice.automationtesting.in/my-account/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79a98d8f-02d5-4752-9b80-c6334a8201c3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "73e730da-6a6f-423e-a381-dff4d6feb291",
+      "comment": "",
+      "command": "click",
+      "target": "id=reg_email",
+      "targets": [
+        ["id=reg_email", "id"],
+        ["name=email", "name"],
+        ["css=#reg_email", "css:finder"],
+        ["xpath=//input[@id='reg_email']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92654a7d-9399-46da-bbf8-211c6543394f",
+      "comment": "",
+      "command": "type",
+      "target": "id=reg_email",
+      "targets": [
+        ["id=reg_email", "id"],
+        ["name=email", "name"],
+        ["css=#reg_email", "css:finder"],
+        ["xpath=//input[@id='reg_email']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p/input", "xpath:position"]
+      ],
+      "value": "testeDeLogin@gmail.com"
+    }, {
+      "id": "9ccd5352-a8a8-44bf-84dd-729a2e14286d",
+      "comment": "",
+      "command": "click",
+      "target": "id=reg_password",
+      "targets": [
+        ["id=reg_password", "id"],
+        ["css=#reg_password", "css:finder"],
+        ["xpath=//input[@id='reg_password']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f92b551-e6b6-4411-ad37-ff76b85ad62f",
+      "comment": "",
+      "command": "type",
+      "target": "id=reg_password",
+      "targets": [
+        ["id=reg_password", "id"],
+        ["css=#reg_password", "css:finder"],
+        ["xpath=//input[@id='reg_password']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p[2]/input", "xpath:position"]
+      ],
+      "value": "TesteDeLogin123"
+    }, {
+      "id": "f1a45c27-38a7-429f-85ea-4b7f3ec88694",
+      "comment": "",
+      "command": "click",
+      "target": "name=register",
+      "targets": [
+        ["name=register", "name"],
+        ["css=.woocomerce-FormRow > .woocommerce-Button", "css:finder"],
+        ["xpath=//input[@name='register']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p[3]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p[3]/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99804349-9fab-43f7-ac3d-586ee07b2d41",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign out",
+      "targets": [
+        ["linkText=Sign out", "linkText"],
+        ["css=p:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign out')]", "xpath:link"],
+        ["xpath=//div[@id='page-36']/div/div/div/p/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://practice.automationtesting.in/my-account/customer-logout/')])[2]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7e13738-1cd7-4a81-b522-aff51a7132e8",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div/form/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79f9eb61-3b62-46af-a85e-8881110efe56",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div/form/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": "testeDeLogin@gmail.com"
+    }, {
+      "id": "413f9d13-2b63-4390-8cf1-288f260600f6",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div/form/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e97ab2d0-5071-4363-88c7-d345eae76168",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div/form/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "TesteDeLogin123123"
+    }, {
+      "id": "af6119ea-dddb-4091-8330-a0baa15f6d2a",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.form-row:nth-child(3) > .woocommerce-Button", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div/form/p[3]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c834d0d-ed89-4ed0-989d-822016d022e3",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div/form/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f5dff1b-5eed-4bdd-8e56-731e923913fb",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div/form/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "TesteDeLogin123"
+    }, {
+      "id": "4e493ffe-2e85-4cf6-8733-fec6a261d8ca",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "25700899-6c74-47e0-a9e9-2723829e3546",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=",
+      "targets": [
+        ["index="]
+      ],
+      "value": ""
+    }, {
+      "id": "aafd0fa0-abe3-4076-9ba1-1dd73af017a5",
+      "comment": "",
+      "command": "click",
+      "target": "id=close_button",
+      "targets": [
+        ["id=close_button", "id"],
+        ["css=#close_button", "css:finder"],
+        ["xpath=//a[@id='close_button']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de0b3bee-a1ae-4b96-ac3f-227a19e30ce1",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "13e9b0ad-caf6-40f6-a73a-049caf593ae7",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=root",
+      "targets": [
+        ["index=root"]
+      ],
+      "value": ""
+    }, {
+      "id": "f004b8a9-cb26-4b38-bfb2-cc5c5c9f91ab",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.form-row:nth-child(3) > .woocommerce-Button", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div/form/p[3]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8498fc6a-eb22-4225-a714-d67465d51d7f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": [],
+  "plugins": []
+}
